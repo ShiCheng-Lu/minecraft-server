@@ -21,7 +21,7 @@ PAPERMC_URL=$(echo "$BUILDS_RESPONSE" | jq -r 'first(.[] | select(.channel == "S
 FOUND_VERSION="$MINECRAFT_VERSION"
 
 # If no stable build for requested version, find the latest version with a stable build
-if [ "$PAPERMC_URL" == "null" ]; then
+if [ "$PAPERMC_URL" = "null" ]; then
   echo "No stable build for version $MINECRAFT_VERSION, searching for latest version with stable build..."
 
   # Get all versions for the project (using the same endpoint structure as the "Getting the latest version" example)
