@@ -1,3 +1,4 @@
+#!/usr/bin/env sh
 
 # https://docs.papermc.io/misc/downloads-service/
 
