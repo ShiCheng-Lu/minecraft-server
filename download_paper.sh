@@ -1,7 +1,7 @@
 
 # https://docs.papermc.io/misc/downloads-service/
 
-PROJECT="uw-archery-minecraft"
+PROJECT="paper"
 MINECRAFT_VERSION="1.21.11"
 USER_AGENT="uw-archery-minecraft/1.0.0 (sc3lu@uwaterloo.com)"
 
