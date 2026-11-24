@@ -1,1 +1,1 @@
-tmux new -s minecraft ./start.sh
+tmux new -s minecraft "sh start.sh"
